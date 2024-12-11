@@ -23,7 +23,7 @@ const CameraScreen = ({ navigation }) => {
   return (
     <Camera
       style={StyleSheet.absoluteFillObject}
-      type={Camera.Constants.Type.back}
+      type={Camera.Constants.Type.back} // Use back camera
     />
   );
 };

@@ -64,6 +64,18 @@ const HomeScreen = ({ navigation }) => {
                 <Text style={styles.buttonText}>Notification</Text>
               </TouchableOpacity>
             </View>
+            <View style={styles.buttonWrapper}>
+              <TouchableOpacity
+                style={styles.button}
+                onPress={() => navigation.navigate('Maintenance')} // New Maintenance button
+              >
+                {/* <Image
+                  source={require('../assets/maintenance.png')} // Replace with the appropriate icon
+                  style={styles.buttonIcon}
+                /> */}
+                <Text style={styles.buttonText}>Maintenance</Text>
+              </TouchableOpacity>
+            </View>
           </View>
         </View>
       </View>

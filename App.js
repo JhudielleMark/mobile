@@ -30,6 +30,7 @@ export default function App() {
         <Stack.Screen name="Notification" component={NotificationScreen} options={{title: 'Notification'}} />
         <Stack.Screen name="Database" component={Database} options={{title: 'Database'}} />
         <Stack.Screen name="Scan" component={CameraScreen} options={{title: 'Scan'}} />
+        <Stack.Screen name="Maintenance" component={MaintenanceScreen} options={{title: 'Maintenance'}} />
       </Stack.Navigator>
     </NavigationContainer>
   );
