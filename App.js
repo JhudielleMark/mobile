@@ -12,6 +12,7 @@ import InventoryScreen from './screens/InventoryScreen';
 import NotificationScreen from './screens/NotificationScreen';
 import Database from './screens/db';
 import CameraScreen from './screens/CameraScreen';
+import MaintenanceScreen from './screens/MaintenanceScreen';
 
 const Stack = createNativeStackNavigator();
 
